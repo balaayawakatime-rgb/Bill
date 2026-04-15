@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA SA Patch Center</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            background: #000;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            margin-top: 30px;
+        }
+        .box {
+            background: #1e1e1e;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: limegreen;
+        }
+    </style>
+</head>
+<body>
+
+<header>GTA San Andreas Patch Center</header>
+
+<div class="container">
+
+    <div class="box">
+        <h2>Main Patch</h2>
+        <p>Download the main GTA SA patch file</p>
+        <button onclick="downloadMain()">Download Main Patch</button>
+    </div>
+
+    <div class="box">
+        <h2>Extra Patch</h2>
+        <p>Download additional patch features</p>
+        <button onclick="downloadExtra()">Download Extra Patch</button>
+    </div>
+
+</div>
+
+<script>
+    function downloadMain() {
+        alert("Main Patch download started!");
+        window.location.href = "https://example.com/main_patch.zip";
+    }
+
+    function downloadExtra() {
+        alert("Extra Patch download started!");
+        window.location.href = "https://example.com/extra_patch.zip";
+    }
+</script>
+
+</body>
+</html>
